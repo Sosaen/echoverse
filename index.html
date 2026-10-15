@@ -1,0 +1,359 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="EchoVerse: descubre artistas, álbumes y novedades de la música alternativa."
+    >
+    <meta name="theme-color" content="#0b0b0f">
+
+    <title>EchoVerse | Explora el universo musical</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Navegación principal">
+            <a class="logo" href="#inicio" aria-label="EchoVerse, inicio">
+                ECHO<span>VERSE</span><span class="logo-dot">.</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+                aria-controls="nav-links"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#artistas">Artistas</a></li>
+                <li><a href="#albumes">Álbumes</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+            </ul>
+
+            <a class="nav-cta" href="#descubrir">Explorar música ↗</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-image" aria-hidden="true"></div>
+
+            <div class="container hero-content">
+                <p class="eyebrow">
+                    <span class="status-dot"></span>
+                    TU UNIVERSO MUSICAL
+                </p>
+
+                <h1>
+                    El sonido de<br>
+                    <span>otro universo.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Descubre nuevos sonidos, artistas que dejan huella
+                    y álbumes que merecen estar en tu colección.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#albumes">
+                        Explorar álbumes <span>↗</span>
+                    </a>
+                    <a class="button button-secondary" href="#artistas">
+                        Descubrir artistas
+                    </a>
+                </div>
+
+                <div class="hero-caption">
+                    <span>SONIDOS SIN FRONTERAS</span>
+                    <span>01 / ECHOVERSE</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="descubrir">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">TU PRÓXIMO DESCUBRIMIENTO</p>
+                    <h2>Explora el <span>sonido.</span></h2>
+                </div>
+
+                <p class="section-intro">
+                    De los clásicos alternativos a las nuevas propuestas.
+                    Encuentra algo que conecte contigo.
+                </p>
+            </div>
+
+            <div class="genre-grid">
+                <a class="genre-card genre-rock" href="#artistas">
+                    <span class="genre-number">01</span>
+                    <span class="genre-name">Alternative<br>Rock</span>
+                    <span class="genre-arrow">↗</span>
+                </a>
+
+                <a class="genre-card genre-electronic" href="#albumes">
+                    <span class="genre-number">02</span>
+                    <span class="genre-name">Electronic<br>Sounds</span>
+                    <span class="genre-arrow">↗</span>
+                </a>
+
+                <a class="genre-card genre-indie" href="#noticias">
+                    <span class="genre-number">03</span>
+                    <span class="genre-name">Indie<br>Culture</span>
+                    <span class="genre-arrow">↗</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="section artists-section" id="artistas">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">PERSONALIDADES QUE RESUENAN</p>
+                        <h2>Artistas <span>destacados.</span></h2>
+                    </div>
+                    <span class="section-index">01 — ARTISTAS</span>
+                </div>
+
+                <div class="artist-grid">
+                    <article class="artist-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&w=700&q=85"
+                            alt="Artista actuando en un escenario iluminado"
+                            loading="lazy"
+                        >
+                        <div class="artist-info">
+                            <div>
+                                <h3>Live Energy</h3>
+                                <p>Alternative Rock</p>
+                            </div>
+                            <span class="round-arrow" aria-hidden="true">↗</span>
+                        </div>
+                    </article>
+
+                    <article class="artist-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=700&q=85"
+                            alt="Cantante interpretando una canción"
+                            loading="lazy"
+                        >
+                        <div class="artist-info">
+                            <div>
+                                <h3>Neon Voices</h3>
+                                <p>Indie / Alternative</p>
+                            </div>
+                            <span class="round-arrow" aria-hidden="true">↗</span>
+                        </div>
+                    </article>
+
+                    <article class="artist-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=700&q=85"
+                            alt="Público disfrutando de un concierto"
+                            loading="lazy"
+                        >
+                        <div class="artist-info">
+                            <div>
+                                <h3>Electric Pulse</h3>
+                                <p>Electronic</p>
+                            </div>
+                            <span class="round-arrow" aria-hidden="true">↗</span>
+                        </div>
+                    </article>
+                </div>
+
+                <p class="demo-note">
+                    Los nombres anteriores son ejemplos de diseño,
+                    no perfiles oficiales de artistas.
+                </p>
+            </div>
+        </section>
+
+        <section class="section container" id="albumes">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">OBRAS PARA VOLVER A ESCUCHAR</p>
+                    <h2>En la <span>rotación.</span></h2>
+                </div>
+                <span class="section-index">02 — ÁLBUMES</span>
+            </div>
+
+            <div class="album-grid">
+                <article class="album-card">
+                    <div class="album-cover cover-one">
+                        <img
+                            src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=700&q=85"
+                            alt="Paisaje nocturno bajo un cielo estrellado"
+                            loading="lazy"
+                        >
+                        <span class="cover-label">EV / 001</span>
+                    </div>
+                    <p class="album-category">DREAM POP</p>
+                    <h3>Midnight Echoes</h3>
+                    <p class="album-artist">Echo Collective</p>
+                </article>
+
+                <article class="album-card">
+                    <div class="album-cover cover-two">
+                        <img
+                            src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=700&q=85&sat=-100"
+                            alt="Paisaje monocromático para una portada conceptual"
+                            loading="lazy"
+                        >
+                        <span class="cover-label">EV / 002</span>
+                    </div>
+                    <p class="album-category">ALTERNATIVE</p>
+                    <h3>Shadows &amp; Light</h3>
+                    <p class="album-artist">The Unknowns</p>
+                </article>
+
+                <article class="album-card">
+                    <div class="album-cover cover-three">
+                        <img
+                            src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=700&q=85"
+                            alt="Luces de un concierto entre humo y oscuridad"
+                            loading="lazy"
+                        >
+                        <span class="cover-label">EV / 003</span>
+                    </div>
+                    <p class="album-category">ELECTRONIC</p>
+                    <h3>After the Signal</h3>
+                    <p class="album-artist">Digital Dreams</p>
+                </article>
+
+                <article class="album-card">
+                    <div class="album-cover cover-four">
+                        <img
+                            src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=700&q=85"
+                            alt="Artista bajo la luz tenue de un escenario"
+                            loading="lazy"
+                        >
+                        <span class="cover-label">EV / 004</span>
+                    </div>
+                    <p class="album-category">INDIE</p>
+                    <h3>Somewhere Else</h3>
+                    <p class="album-artist">Neon Voices</p>
+                </article>
+            </div>
+
+            <p class="demo-note">
+                Álbumes y artistas ficticios para esta primera demostración.
+            </p>
+        </section>
+
+        <section class="section news-section" id="noticias">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">LO QUE SUENA AHORA</p>
+                        <h2>Notas del <span>universo.</span></h2>
+                    </div>
+                    <span class="section-index">03 — CULTURA</span>
+                </div>
+
+                <div class="news-grid">
+                    <article class="news-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=900&q=85"
+                            alt="Concierto con luces sobre el escenario"
+                            loading="lazy"
+                        >
+                        <div class="news-content">
+                            <p class="news-meta">CULTURA · 5 MIN DE LECTURA</p>
+                            <h3>Por qué la música en vivo se siente diferente</h3>
+                            <p>
+                                La energía del escenario, el público y ese
+                                instante que no se repite.
+                            </p>
+                            <a class="text-link" href="#newsletter">
+                                Descubre más <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=900&q=85"
+                            alt="Equipo de grabación en un estudio musical"
+                            loading="lazy"
+                        >
+                        <div class="news-content">
+                            <p class="news-meta">CREACIÓN · 4 MIN DE LECTURA</p>
+                            <h3>Dentro del proceso de crear una canción</h3>
+                            <p>
+                                De una primera idea a un sonido que encuentra
+                                su propia identidad.
+                            </p>
+                            <a class="text-link" href="#newsletter">
+                                Descubre más <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <p class="demo-note">
+                    Artículos de muestra: no representan noticias verificadas.
+                </p>
+            </div>
+        </section>
+
+        <section class="newsletter-section" id="newsletter">
+            <div class="container newsletter-inner">
+                <div>
+                    <p class="eyebrow">MANTENTE EN LA FRECUENCIA</p>
+                    <h2>La música no<br>se <span>detiene.</span></h2>
+                    <p>
+                        Suscríbete a las novedades de EchoVerse.
+                    </p>
+                </div>
+
+                <form class="newsletter-form" id="newsletter-form">
+                    <label for="email">Tu correo electrónico</label>
+                    <div class="email-control">
+                        <input
+                            id="email"
+                            name="email"
+                            type="email"
+                            placeholder="tu@email.com"
+                            autocomplete="email"
+                            required
+                        >
+                        <button type="submit" aria-label="Enviar suscripción">
+                            ↗
+                        </button>
+                    </div>
+                    <p class="form-message" id="form-message" aria-live="polite">
+                        Esta demostración no envía ni almacena tus datos.
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a class="logo" href="#inicio">
+                ECHO<span>VERSE</span><span class="logo-dot">.</span>
+            </a>
+
+            <p>Un universo. Infinitos sonidos.</p>
+
+            <p class="copyright">
+                © <span id="current-year">2026</span> EchoVerse
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
